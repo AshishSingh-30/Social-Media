@@ -1,2 +1,2 @@
 # Social-Media
-This Website is clone of social media application, The Technologies ate used Html, Css, JavaScript.  
+This Website is clone of simple social media application, The Technologies are used Html, Css, JavaScript.  
