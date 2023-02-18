@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media -Using Html, css & javascript</title>
+    <!-- icons cdn -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.5/css/unicons.css"
+    />
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ----------------------nav-------------------------------------------- -->
+
+    <nav>
+      <div class="container">
+        <h2 class="log">bestSocial</h2>
+        <div class="search-bar">
+          <i class="uil uil-search"></i>
+          <input
+            type="search"
+            placeholder="Search for creators,inspirations & projects"
+          />
+        </div>
+        <div class="create">
+          <label class="btn btn-primary" for="create post">Create</label>
+          <div class="profile-picture">
+            <img src="./image/5.png" />
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!------------------------main------------------------------------- ------------>
+
+    <main>
+      <div class="container">
+        <!-- ----------------------left------------------------------------- -->
+        <div class="left">
+          <a class="profile">
+            <div class="profile-picture">
+              <img src="./image/5.png" />
+            </div>
+            <div class="handle">
+              <h4>Hrithik Roshan</h4>
+              <p class="text-muted">@TheHRX</p>
+            </div>
+          </a>
+
+          <!-- -----sidebar------------------------ ------------------>
+          <div class="sidebar">
+            <a class="menu-items active">
+              <span><i class="uil uil-home"></i></span>
+              <h3>Home</h3>
+            </a>
+            <a class="menu-items">
+              <span><i class="uil uil-compass"></i></span>
+              <h3>Explore</h3>
+            </a>
+            <a class="menu-items" id="notification">
+              <span
+                ><i class="uil uil-bell"
+                  ><small class="notification-count">9+</small>
+                </i></span
+              >
+              <h3>Notifications</h3>
+              <!----Notification pop up------------------------ -->
+              <div class="notification-popup">
+                <div>
+                  <div class="profile-picture">
+                    <img src="./image/2.jpg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Shruti Hasan</b> accepted your friend request.👍
+                    <small class="text-muted">2 Days ago</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-picture">
+                    <img src="./image/3.jpg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Urvasi Rautela</b> commented on your posted your are
+                    tagged.
+                    <small class="text-muted">3 Days ago</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-picture">
+                    <img src="./image/4.jpg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Sharukh khan</b> like your post❤️
+                    <small class="text-muted">5 Days ago</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-picture">
+                    <img src="./image/1.jpg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Zyan Malik</b> accepted your friend request.👍
+                    <small class="text-muted">8 Days ago</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-picture">
+                    <img src="./image/6.jpg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Mahesh Babu</b> commented on your post.
+                    <small class="text-muted">8 Days ago</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-picture">
+                    <img src="./image/7.jpg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Samantha</b> like on your post.❤️
+                    <small class="text-muted">8 Days ago</small>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="menu-items" id="msg-notification">
+              <span
+                ><i class="uil uil-envelope">
+                  <small class="notification-count">6</small>
+                </i></span
+              >
+              <h3>Messages</h3>
+            </a>
+            <a class="menu-items">
+              <span><i class="uil uil-bookmark"></i></span>
+              <h3>Bookmarks</h3>
+            </a>
+            <a class="menu-items">
+              <span><i class="uil uil-chart-line"></i></span>
+              <h3>Anlaytics</h3>
+            </a>
+            <a class="menu-items" id="theme">
+              <span><i class="uil uil-palette"></i></span>
+              <h3>Theme</h3>
+            </a>
+            <a class="menu-items">
+              <span><i class="uil uil-setting"></i></span>
+              <h3>Settings</h3>
+            </a>
+          </div>
+          <!-- -----------End of side bar --------------------------------->
+          <label for="create post" class="btn btn-primary">Create Post</label>
+        </div>
+        <!-- --------------------End of left side------------------------------------ -->
+
+        <!-- ----------------------middle------------------------------------- -->
+        <div class="middle">
+          <!-- -----------------stories---------------- -->
+          <div class="stories">
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./image/5.png" />
+              </div>
+              <p class="name">Your Story</p>
+            </div>
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./image/8.jpg" />
+              </div>
+              <p class="name">Virat Kohli</p>
+            </div>
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./image/9.jpg" />
+              </div>
+              <p class="name">Salman Khan</p>
+            </div>
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./image/10.jpg" />
+              </div>
+              <p class="name">Yoyo Honey Singh</p>
+            </div>
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./image/11.jpg" />
+              </div>
+              <p class="name">Nawazuddin Siddqui</p>
+            </div>
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./image/12.jpg" />
+              </div>
+              <p class="name">Allu Arjun</p>
+            </div>
+          </div>
+          <!-- =====================End of stories========================= -->
+
+          <form class="createpost">
+            <div class="profile-picture">
+              <img src="./image/5.png" />
+            </div>
+            <input type="text" placeholder="Post here" id="createpost" />
+            <input type="submit" value="Post" class="btn btn-primary" />
+          </form>
+
+          <!-- ===============================Feeds================================ -->
+
+          <div class="feeds">
+            <!-- ======================Feed1-------------------------- -->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./image/13.jpg" />
+                  </div>
+                  <div class="info">
+                    <h3>Pankaj Tripathi</h3>
+                    <small>Mirzapur, 15 Minutes ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="uil uil-ellipsis-h"></i>
+                </span>
+              </div>
+              <div class="photo">
+                <img src="./image/Pk.jpg" />
+              </div>
+              <div class="action-btn">
+                <div class="interaction-btn">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="uil uil-bookmark"></i></span>
+                </div>
+              </div>
+              <div class="likeby">
+                <span><img src="./image/3.jpg" /></span>
+                <span><img src="./image/11.jpg" /></span>
+                <span><img src="./image/6.jpg" /></span>
+                <p>Liked by <b>Urvasi Rautela</b> and <b>2356 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>Pankaj Tripathi</b> A shocking incident at a wedding
+                  procession ignites a series of events entangling the lives of
+                  two families in the lawless city of Mirzapur.
+                  <span class="Ash-tag">#MirzapurSeries</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 1879 comments</div>
+            </div>
+            <!-- ======================Feed2-------------------------- -->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./image/hp.jpg" />
+                  </div>
+                  <div class="info">
+                    <h3>Hardik Pandya</h3>
+                    <small>IPL, 15 hours ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="uil uil-ellipsis-h"></i>
+                </span>
+              </div>
+              <div class="photo">
+                <img src="./image/gt.jpg" />
+              </div>
+              <div class="action-btn">
+                <div class="interaction-btn">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="uil uil-bookmark"></i></span>
+                </div>
+              </div>
+              <div class="likeby">
+                <span><img src="./image/3.jpg" /></span>
+                <span><img src="./image/11.jpg" /></span>
+                <span><img src="./image/6.jpg" /></span>
+                <p>Liked by <b>Ashish Nehra</b> and <b>10K others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>Hardik Pandya</b> If you believe in yourself and have
+                  dedication and pride - and never quit, you'll be a winner.
+                  <span class="Ash-tag">#Iplwinner2022</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 7610 comments</div>
+            </div>
+            <!-- ======================Feed3-------------------------- -->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./image/Ms.jpg" />
+                  </div>
+                  <div class="info">
+                    <h3>Marvel Stuios</h3>
+                    <small>Multiverse of Madness, 10 Minutes ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="uil uil-ellipsis-h"></i>
+                </span>
+              </div>
+              <div class="photo">
+                <img src="./image/Mom.jpg" />
+              </div>
+              <div class="action-btn">
+                <div class="interaction-btn">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="uil uil-bookmark"></i></span>
+                </div>
+              </div>
+              <div class="likeby">
+                <span><img src="./image/3.jpg" /></span>
+                <span><img src="./image/11.jpg" /></span>
+                <span><img src="./image/6.jpg" /></span>
+                <p>Liked by <b>Tonny Stark</b> and <b>1088 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>Marvel Stuios</b> Dr Stephen Strange casts a forbidden
+                  spell that opens a portal to the multiverse. However, a threat
+                  emerges that may be too big for his team to handle.
+                  <span class="Ash-tag">#Multiverseofmadness</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 932 comments</div>
+            </div>
+            <!-- ======================Feed4-------------------------- -->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./image/nc.jpg" />
+                  </div>
+                  <div class="info">
+                    <h3>Neeraj Chopra</h3>
+                    <small>Olympic, 28 Days ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="uil uil-ellipsis-h"></i>
+                </span>
+              </div>
+              <div class="photo">
+                <img src="./image/j.jpeg" />
+              </div>
+              <div class="action-btn">
+                <div class="interaction-btn">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="uil uil-bookmark"></i></span>
+                </div>
+              </div>
+              <div class="likeby">
+                <span><img src="./image/3.jpg" /></span>
+                <span><img src="./image/11.jpg" /></span>
+                <span><img src="./image/6.jpg" /></span>
+                <p>Liked by <b>Akshay kumar</b> and <b>30K others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>Neeraj Chopra</b> winning the men's javelin throw final
+                  with a best throw of 87.58m.
+                  <span class="Ash-tag">#Olympicwinner1</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 25K comments</div>
+            </div>
+            <!-- ======================Feed5-------------------------- -->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./image/apv1.jpg" />
+                  </div>
+                  <div class="info">
+                    <h3>Amazon Primevideo</h3>
+                    <small>Family Man 2, 10 Day ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="uil uil-ellipsis-h"></i>
+                </span>
+              </div>
+              <div class="photo">
+                <img src="./image/fm.jpg" />
+              </div>
+              <div class="action-btn">
+                <div class="interaction-btn">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="uil uil-bookmark"></i></span>
+                </div>
+              </div>
+              <div class="likeby">
+                <span><img src="./image/3.jpg" /></span>
+                <span><img src="./image/11.jpg" /></span>
+                <span><img src="./image/6.jpg" /></span>
+                <p>Liked by <b>Pankaj Tripathi</b> and <b>7550 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>Amzon Primevideo</b> The Family Man revolves around a
+                  world-class spy Srikant Tiwari who can hunt down terrorists
+                  but has difficulty dealing with his family
+                  <span class="Ash-tag">#Familyman-2Series</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 5021 comments</div>
+            </div>
+            <!-- ======================Feed6-------------------------- -->
+
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./image/ykgf.jpeg" />
+                  </div>
+                  <div class="info">
+                    <h3>Yash Raj</h3>
+                    <small>K.G.F- 2, 1 Day ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="uil uil-ellipsis-h"></i>
+                </span>
+              </div>
+              <div class="photo">
+                <img src="./image/kgf.jpg" />
+              </div>
+              <div class="action-btn">
+                <div class="interaction-btn">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="uil uil-bookmark"></i></span>
+                </div>
+              </div>
+              <div class="likeby">
+                <span><img src="./image/3.jpg" /></span>
+                <span><img src="./image/11.jpg" /></span>
+                <span><img src="./image/6.jpg" /></span>
+                <p>Liked by <b>Satyam Tiwari</b> and <b>4872 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>Yash Raj</b> The blood-soaked land of Kolar Gold Fields has
+                  a new overlord now, Rocky, whose name strikes fear in the
+                  heart of his foes. His allies look up to him as their Savior,
+                  the government sees him as a threat, and his enemies are
+                  clamouring for revenge.
+                  <span class="Ash-tag">#K.G.F-2</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 4112 comments</div>
+            </div>
+            <!-- ======================Feed7-------------------------- -->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./image/14.jpeg" />
+                  </div>
+                  <div class="info">
+                    <h3>Saif Ali Khan</h3>
+                    <small>Scared Games, 1 hour ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="uil uil-ellipsis-h"></i>
+                </span>
+              </div>
+              <div class="photo">
+                <img src="./image/sak.jpg" />
+              </div>
+              <div class="action-btn">
+                <div class="interaction-btn">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="uil uil-bookmark"></i></span>
+                </div>
+              </div>
+              <div class="likeby">
+                <span><img src="./image/1.jpg" /></span>
+                <span><img src="./image/11.jpg" /></span>
+                <span><img src="./image/12.jpg" /></span>
+                <p>Liked by <b>Salman khan</b> and <b>1226 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>Saif ali khan</b> Sartaj Singh, a Mumbai police officer,
+                  receives an anonymous phone call from a gangster who threatens
+                  to blow up the entire city.
+                  <span class="Ash-tag">#Scaredgames </span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 1353 comments</div>
+            </div>
+            <!-- =============End of Feed============================================= -->
+          </div>
+        </div>
+
+        <!-- ----------------------right------------------------------------- -->
+        <div class="right">
+          <div class="messages">
+            <div class="heading">
+              <h4>Messages</h4>
+              <i class="uil uil-edit"></i>
+            </div>
+            <!-- =============Search bar===================== -->
+            <div class="search-bar">
+              <i class="uil uil-search"></i>
+              <input
+                type="search"
+                placeholder="Search messages"
+                id="messages-search"
+              />
+            </div>
+            <!--============================Messages Category =====================-->
+            <div class="category">
+              <h6 class="active">Primary</h6>
+              <h6>General</h6>
+              <h6 class="messages-requests">Requests(7)</h6>
+            </div>
+            <!-- ======================Message========================= -->
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./image/ts.jpg" />
+              </div>
+              <div class="message-body">
+                <h5>Tiger Shroff</h5>
+                <p class="text-muted">Hiii Sir</p>
+              </div>
+            </div>
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./image/kt.jpg" />
+                <div class="active"></div>
+              </div>
+              <div class="message-body">
+                <h5>Katrina Kaif</h5>
+                <p class="text-bold">2 new messages</p>
+              </div>
+            </div>
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./image/rs.jpg" />
+              </div>
+              <div class="message-body">
+                <h5>Rohit Shetty</h5>
+                <p class="text-muted">Next Film is with u 👍</p>
+              </div>
+            </div>
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./image/gg.jpg" />
+              </div>
+              <div class="message-body">
+                <h5>Govinda</h5>
+                <p class="text-muted">ok</p>
+              </div>
+            </div>
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./image/pd.jpg" />
+                <div class="active"></div>
+              </div>
+              <div class="message-body">
+                <h5>Prabhu Deva</h5>
+                <p class="text-muted">Jaldi aa yaar!</p>
+              </div>
+            </div>
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./image/rd.jpg" />
+              </div>
+              <div class="message-body">
+                <h5>Remo D'souza</h5>
+                <p class="text-bold">1 new messages</p>
+              </div>
+            </div>
+          </div>
+          <!-- =======End of messages========================== -->
+
+          <!-- ===============================Friend Requests================ -->
+          <div class="friend-request">
+            <h4>Requests</h4>
+            <div class="request">
+              <div class="info">
+                <div class="profile-picture">
+                  <img src="./image/Kr.jpg" />
+                </div>
+                <div>
+                  <h5>Kangana Ranuat</h5>
+                  <p class="text-muted">10 mutual friends</p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
+              </div>
+            </div>
+            <div class="request">
+              <div class="info">
+                <div class="profile-picture">
+                  <img src="./image/vd.jpeg" />
+                </div>
+                <div>
+                  <h5>Varun Dhawan</h5>
+                  <p class="text-muted">7 mutual friends</p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
+              </div>
+            </div>
+            <div class="request">
+              <div class="info">
+                <div class="profile-picture">
+                  <img src="./image/ab.jpg" />
+                </div>
+                <div>
+                  <h5>Ali Bhatt</h5>
+                  <p class="text-muted">15 mutual friends</p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ===================End of right======================== -->
+    </main>
+
+    <!-- ==========================Theme Customization===================== -->
+    <div class="customize-theme">
+      <div class="card">
+        <h2>Customize your view</h2>
+        <p class="text-muted">Manage your fontsize, color, and background.</p>
+
+        <!-- ======font sizes------------------ -->
+        <div class="font-size">
+          <h4>Font Size</h4>
+          <div>
+            <h6>Aa</h6>
+            <div class="choose-size">
+              <span class="font-size-1"></span>
+              <span class="font-size-2"></span>
+              <span class="font-size-3 active"></span>
+              <span class="font-size-4"></span>
+              <span class="font-size-5"></span>
+            </div>
+            <h3>Aa</h3>
+          </div>
+        </div>
+
+        <!-- ================Primary colours-------------------------- -->
+        <div class="color">
+          <h4>Color</h4>
+          <div class="choose-color">
+            <span class="color-1 active"></span>
+            <span class="color-2"></span>
+            <span class="color-3"></span>
+            <span class="color-4"></span>
+            <span class="color-5"></span>
+          </div>
+        </div>
+
+        <!-- ========================Background  colors ====================-->
+        <div class="background">
+          <h4>Background</h4>
+          <div class="choose-bg">
+            <div class="bg-1 active">
+              <span></span>
+              <h5 for="bg-1">Light</h5>
+            </div>
+            <div class="bg-2">
+              <span></span>
+              <h5 for="bg-2">Dim</h5>
+            </div>
+            <div class="bg-3">
+              <span></span>
+              <h5 for="bg-3">Lights Out</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
